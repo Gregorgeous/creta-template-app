@@ -1,5 +1,13 @@
 # @hydrofoil/creta-project-template
 
+## 1.2.2
+
+### Patch Changes
+
+- 2dfdff3: Remove `UI_PATH` variable and inject from template answer
+- e54d104: Store not wired up correctly
+- 5edd626: Wrong app component used in `www/index.html`
+
 ## 1.2.1
 
 ### Patch Changes
