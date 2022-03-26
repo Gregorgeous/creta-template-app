@@ -1,5 +1,9 @@
 # @hydrofoil/creta-project-template
 
+## 1.2.2
+### DEBUG
+- 200ae522: Try removing characters that break on Windows
+
 ## 1.2.1
 
 ### Patch Changes
