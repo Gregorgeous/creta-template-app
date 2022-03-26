@@ -61,29 +61,3 @@ ui_path:
   type: str
   help: Path at which to serve the web application (no leading slash)
   default: app
-
-vocabs:
-  type: yaml
-  when: "{{vocabs}}"
-  default: []
-  multiline: true
-  help: >-
-    Additional vocabularies to insert to the store from vocabulary packages.
-    
-    This must be an array and every entry should be formatted as described on https://creta.hypermedia.app/#/talos?id=additional-vocabularies
-
-    For example:
-      - "@zazuko/rdf-vocabularies,dash,geo"
-      - "@org/vocabularies"
-
-repository:
-  type: str
-  default: https://github.com/org/repo
-
-node_version:
-  type: str
-  help: Any valid node version. Used to run local env and CI
-  default: 16
-
-debugger_port:
-  default: "{{ range(20000,65536) | random }}"
